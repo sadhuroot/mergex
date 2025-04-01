@@ -19,14 +19,14 @@ show_help() {
 }
 
 # Display MergeX Banner
-echo -e "\e[96m"
+
 echo "  __  __                     __  __"
 echo " |  \/  | ___ _ __ __ _  ___ \\ \/ /   by:sadhuroot"
 echo " | |\/| |/ _ \\ '__/ _\\\` |/ _ \\ \\  /"
 echo " | |  | |  __/ | | (_| |  __/ /  \\"
 echo " |_|  |_|\\___|_|  \\__, |\\___|/_/\\_\\"
 echo "                    |___/"
-echo -e "\e[0m"
+
 
 # --------- ARGUMENT HANDLING ----------
 
