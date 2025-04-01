@@ -12,8 +12,6 @@ $$ | $$ | $$ |\$$$$$$$\ $$ |      \$$$$$$$ |\$$$$$$$\ $$ /  $$ |
                                    \______/                     
 ```
 
-Tool to find and merge all `.pcap` and `.pcapng` files on the system, remove duplicate WPA handshakes, and generate a clean `.22000` output — ready for use with tools like `hashcat`.
----
 
 ### MergeX – PCAP & Hash Merger Tool
 ```
