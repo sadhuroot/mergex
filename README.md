@@ -10,13 +10,24 @@ $$ | $$ | $$ |\$$$$$$$\ $$ |      \$$$$$$$ |\$$$$$$$\ $$ /  $$ |
                                   $$\   $$ |                    
                                   \$$$$$$  |                    
                                    \______/                     
-     
 ```
 
 Find all the PCAP + PCAPNG on system, merge them, and get 22000 output
 ---
 
 ### MergeX – PCAP & Hash Merger Tool
+```
+git clone https://github.com/sadhuroot/mergex
+```
+```
+cd mergex
+````
+```
+chmod +x mergex.sh
+```
+```
+./mergex -h
+````
 
 **Usage:**  
 `./mergex.sh [source_path] [output_file]`
