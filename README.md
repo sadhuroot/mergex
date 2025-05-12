@@ -103,7 +103,7 @@ Options:
 ```bash
 ./mergex.sh --auto -o ~/results.22000
 ```
-<img width="1191" alt="Screenshot 2025-05-12 at 17 59 50" src="https://github.com/user-attachments/assets/4bd30687-5a64-49da-a2a2-bf0efaf231a0" />
+
 
 **Interactive mode with verbose output**:
 ```bash
