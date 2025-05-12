@@ -42,20 +42,20 @@ The tool allows you to merge multiple PCAP files, extract hashes, combine with e
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/mergex.git
+git clone https://github.com/sadhuroot/mergex.git
 cd mergex
 ```
 
 2. **Make the script executable**:
 
 ```bash
-chmod +x mergex-interactive.sh
+chmod +x mergex.sh
 ```
 
 3. **Run the script to check dependencies**:
 
 ```bash
-./mergex-interactive.sh
+./mergex.sh
 ```
 
 The script will automatically check for required dependencies and offer to install any missing components using Homebrew.
@@ -67,7 +67,7 @@ The script will automatically check for required dependencies and offer to insta
 The easiest way to use MergeX is through its interactive interface:
 
 ```bash
-./mergex-interactive.sh
+./mergex.sh
 ```
 
 This will launch the interactive menu where you can:
@@ -82,7 +82,7 @@ This will launch the interactive menu where you can:
 For automation or quick usage, MergeX supports several command-line options:
 
 ```bash
-./mergex-interactive.sh [OPTIONS]
+./mergex.sh [OPTIONS]
 ```
 
 Options:
@@ -96,18 +96,18 @@ Options:
 
 **Process files in a specific directory**:
 ```bash
-./mergex-interactive.sh -d ~/Documents/captures -o ~/results.22000
+./mergex.sh -d ~/Documents/captures -o ~/results.22000
 ```
 
 **Auto-search and process all files**:
 ```bash
-./mergex-interactive.sh --auto -o ~/results.22000
+./mergex.sh --auto -o ~/results.22000
 ```
 <img width="1191" alt="Screenshot 2025-05-12 at 17 59 50" src="https://github.com/user-attachments/assets/4bd30687-5a64-49da-a2a2-bf0efaf231a0" />
 
 **Interactive mode with verbose output**:
 ```bash
-./mergex-interactive.sh -v
+./mergex.sh -v
 ```
 
 ## 📊 Workflow
@@ -131,12 +131,14 @@ MergeX follows this process:
 
 <div align="center">
 <i>Processing Files</i><br>
-[Screenshot of processing]
+<img width="1273" alt="Screenshot 2025-05-12 at 18 01 23" src="https://github.com/user-attachments/assets/0e484f03-8e9b-4a2e-8fab-ff0717d4d7c6" />
+
 </div>
 
 <div align="center">
 <i>Results Summary</i><br>
-[Screenshot of results]
+<img width="1339" alt="Screenshot 2025-05-12 at 18 02 32" src="https://github.com/user-attachments/assets/910fe610-5f82-432c-85a2-db0c220d627c" />
+
 </div>
 
 ## ❓ Troubleshooting
